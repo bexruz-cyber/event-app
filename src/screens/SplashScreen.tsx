@@ -12,16 +12,6 @@ export default function OnboardingScreen1({ navigation }: OnboardingScreen1Props
   return (
     <View style={styles.container}>
       <SplashScreen width="100%" height="100%" style={styles.bg} /> {/* SVG ni ko'rsatish */}
-      <View style={styles.content}>
-        <Text style={styles.title}>It's Ok Not To Be</Text>
-        <Text style={styles.title}>OKAY !!</Text>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigation.navigate('Home')}
-        >
-          <Text style={styles.buttonText}>Let Us Help You</Text>
-        </TouchableOpacity>
-      </View>
     </View>
   );
 }
